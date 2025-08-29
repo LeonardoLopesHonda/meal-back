@@ -1,0 +1,10 @@
+node_modules/
+build/
+coverage/
+ios/
+android/
+.expo/
+.vscode/
+constants/
+hooks/
+expo-env.d.ts
