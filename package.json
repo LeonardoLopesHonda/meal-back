@@ -12,6 +12,7 @@
     "lint:eslint:check": "eslint .",
     "lint:prettier:check": "prettier --check .",
     "lint:prettier:fix": "prettier --write .",
+    "lint:commit:check": "npx commitlint --from HEAD1 --to HEAD --verbose",
     "prepare": "husky",
     "commit": "cz"
   },
