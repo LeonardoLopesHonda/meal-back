@@ -63,3 +63,18 @@
    ```bash
    npx expo start
    ```
+
+   Or use a npm command on the `package.json`
+
+   ```bash
+   npm run
+   ```
+
+   > `+` (one of these)
+
+   ```json
+   "start": "expo start",
+   "android": "expo start --android",
+   "ios": "expo start --ios",
+   "web": "expo start --web",
+   ```
