@@ -44,7 +44,7 @@
 
 5. Open a device emulator on android studio
 
-[Device Manager - Android Studio](/assets/images/device-manager.png)
+![Device Manager - Android Studio](/assets/images/device-manager.png)
 
 > If you're facing permission problems follow [this](https://stackoverflow.com/a/45749003/19612959)
 
