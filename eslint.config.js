@@ -6,10 +6,10 @@ const prettierPlugin = require("eslint-plugin-prettier");
 
 module.exports = defineConfig([
   expoConfig,
-  eslintPluginPrettierRecommended,
   {
     plugins: {
       prettier: prettierPlugin,
+      eslintPluginPrettierRecommended,
     },
     rules: { "prettier/prettier": "error" },
     ignores: ["dist/*"],
